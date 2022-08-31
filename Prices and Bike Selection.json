@@ -1,4 +1,17 @@
-"prices"[ 
-{"persons": "Adult" 
-"Price": "25.00/hr"; }, 
-]
+"priceCollection": [
+    {
+      "name": "Prices",
+      "duration": 3,
+      "deals": [
+        {
+          "person": "Adult",
+          "cost": "50.00 a day"
+        },
+        {
+          "person": "Child",
+          "cost": "25.00 a day"
+        }, 
+	    { 
+		  "person": "Family", 
+		  "cost": "15.00 a day per person"
+		};
