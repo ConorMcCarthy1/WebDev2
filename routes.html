@@ -1,27 +1,147 @@
 <!Doctype HTML> 
 <html> 
 <head> 
-	<link href="CSS/bootstrap-4.4.1.css"/> 
-	<link href="CSS/gallery.css" rel="stylesheet"/>
-	<link href="CSS/lightbox.min.css"/> 
-	<link href="CSS/mystylesheet.css"/> 
-	<link href="CSS/stylesheet.css"/>
-	<script src="JS/myscript.js"></script> 
-	<script src="JS/bootstrap-4.4.1.js"></script> 
-	<script src="JS/jquery-3.4.1.min.js"></script> 
-	<script src="JS/lightbox.min.js"></script>
+ <link href="CSS/bootstrap-4.4.1.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/twentytwenty.css"> 
+    <link href="CSS/stylesheet.css" rel="stylesheet" type="text/css">  
+	<script src="js/jquery.event.move.js"></script>
+
+	  <script src="js/lightbox.min.js"></script> 
+	<script src="js/jquery-semantic-ui.js"></script> 
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+	<script src="js/myscript.js"></script>  
+	<script src="js/jquery.twentytwenty.js"></script>
+	<script>
+  $("#beforeafter").twentytwenty({ 
+	default_offset_pct:0.7
+});
+</script>
 <title>Routes</title>
 </head> 
-<body><h1>Routes on the Greenway<h2>(and where you can join...)</h2></h1>  
-<h3>Plunkett Station</h3> 
-<p></p> 
-<h3>Mount Congreve Estate Gardens</h3> 
-<img src="images/magnolias.jpg"/>
-<p>From The Woodland Garden to The West Lawn, Mount Congreve is a stop worth visiting for it's stunning landscapes, floral extravagance. 
-The Herman Dool Magnolia Walk oversees the River Suir and it's all framed by Magnolias of growth beginning as early as the 1960s.
+<body> <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Conor's Greenway Bike Hire</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron" >
+            <h1 style="text-align: center;">Routes on the Greenway<h2 style="text-align: center;">(and where you can join...)</h2></h1> 
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <p><a class="btn btn-success btn-lg" href="index.html" role="button">Back to home page</a> </p>
+              </div>
+              <div class="col-auto">
+                <p><a class="btn btn-primary btn-lg" href="Bike Hire.html" role="button">Look at Bike Prices</a> </p>
+              </div>
+            </div>
+            <p class="text-center">...Come and see why you should join us on the Greenway</p> 
+			  <div class="ui-card" style="align-content: center"> </div>
+           <h3 class="text-center">Mount Congreve Estate Gardens</h3> 
+			  <div id="beforeafter">
+ <img src = "Images/magnolias.jpg" width="70%"> 
+ <img src = "Images/mount congreve house.jpg" width="70%">
+</div>
+      <br/>
+
+<div id="gallery" style="margin-left: 390px;">
+  <a href="Images/mount congreve house.jpg" data-title = "Sky"    data-lightbox="Colours">
+               <img src="Images/mount congreve house.jpg" width="70" height="70" alt="Blue"></a>
+  <a href="Images/doorway.jpeg" data-title = "Yellow Scene"    data-lightbox="Colours"> 
+               <img src="Images/doorway.jpeg" width="70" height="70" alt="Yellow"/> </a>
+  <a href="images/20mount congreve.jpg" data-title = "Green Scene"   data-lightbox="Colours">
+               <img src="Images/20mount congreve.jpg" width="70" height="70" alt="Green"/> </a> 
+	</div>
+<p style="padding: 50px 0px 50px 0px">From The Woodland Garden to The West Lawn, Mount Congreve is a stop worth visiting for it's stunning landscapes, floral extravagance. 
+The Herman Dool Magnolia Walk oversees the River Suir and it's all framed by Magnolias of growth beginning as early as the 1960s.</p> 
+<img src="Images/padoga.jpg" style="margin-left: 215px;"/>
+
+<div id="gallery" style="margin-left: 410px;">
+  <a href="images/20mount congreve.jpg" data-title = "Blue Scene"    data-lightbox="Colours">
+               <img src="images/20mount congreve.jpg" width="70" height="70" alt="Blue"></a>
+  <a href="Images/congreve-800x600.jpg" data-title = "Yellow Scene"    data-lightbox="Colours"> 
+               <img src="images/congreve-800x600.jpg" width="70" height="70" alt="Yellow"/> </a>
+  <a href="Images/porch.jpg" data-title = "Green Scene"   data-lightbox="Colours">
+               <img src="Images/porch.jpg" width="70" height="70" alt="Green"/> </a>
+</div>
+
+	 <p style="padding: 50px 0px 50px 0px">
 In late summer a three quarter mile walk of over ninety different varieties of Hydrangeas is in full flower. 
 As one enters the woodland garden there is a walk with over fifty varieties of Pieris,
-whose growth habits range from twenty inches to twenty feet, with new foliage emerging from pink to red...</p> 
+whose growth habits range from twenty inches to twenty feet, with new foliage emerging from pink to red...</p>   
+    <hr> 
+			  <h3>Plunkett Station</h3>  
+			   <div class="ui-card" style="align-content: center"> </div>
+           <h3 class="text-center">Plunkett Station</h3>
+           <img src="images/magnolias.jpg" style="margin-left: 215px;"/><br/>
+
+<div id="gallery" style="margin-left: 390px;">
+  <a href="Images/mount congreve house.jpg" data-title = "Sky"    data-lightbox="Colours">
+               <img src="Images/mount congreve house.jpg" width="70" height="70" alt="Blue"></a>
+  <a href="Images/doorway.jpeg" data-title = "Yellow Scene"    data-lightbox="Colours"> 
+               <img src="Images/doorway.jpeg" width="70" height="70" alt="Yellow"/> </a>
+  <a href="images/20mount congreve.jpg" data-title = "Green Scene"   data-lightbox="Colours">
+               <img src="Images/20mount congreve.jpg" width="70" height="70" alt="Green"/> </a> 
+	</div>
+<p style="padding: 50px 0px 50px 0px">From The Woodland Garden to The West Lawn, Mount Congreve is a stop worth visiting for it's stunning landscapes, floral extravagance. 
+The Herman Dool Magnolia Walk oversees the River Suir and it's all framed by Magnolias of growth beginning as early as the 1960s.</p> 
+<img src="Images/padoga.jpg" style="margin-left: 215px;"/>
+
+<div id="gallery" style="margin-left: 410px;">
+  <a href="images/20mount congreve.jpg" data-title = "Blue Scene"    data-lightbox="Colours">
+               <img src="images/20mount congreve.jpg" width="70" height="70" alt="Blue"></a>
+  <a href="Images/congreve-800x600.jpg" data-title = "Yellow Scene"    data-lightbox="Colours"> 
+               <img src="images/congreve-800x600.jpg" width="70" height="70" alt="Yellow"/> </a>
+  <a href="Images/porch.jpg" data-title = "Green Scene"   data-lightbox="Colours">
+               <img src="Images/porch.jpg" width="70" height="70" alt="Green"/> </a>
+</div>
+
+	 <p style="padding: 50px 0px 50px 0px">
+In late summer a three quarter mile walk of over ninety different varieties of Hydrangeas is in full flower. 
+As one enters the woodland garden there is a walk with over fifty varieties of Pieris,
+whose growth habits range from twenty inches to twenty feet, with new foliage emerging from pink to red...</p>   
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer> 
+
+<p></p> 
+
 <h3></h3> 
 <p>The base of the rugged Comeragh Mountains</p> 
 <footer>&copy; Conor McCarthy, 2022</footer></body>
